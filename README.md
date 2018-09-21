@@ -1,3 +1,10 @@
+# About this fork
+**NOTE:** This project is a fork of the original (and awesome) [SheetJS/xlsx](https://github.com/SheetJS/js-xlsx) project.
+It is extended to enable cell validation while writing to .xlsx workbooks.
+
+For those contributing to this fork:
+* `master` is the main branch
+
 # [SheetJS js-xlsx](http://sheetjs.com)
 
 Parser and writer for various spreadsheet formats.  Pure-JS cleanroom
