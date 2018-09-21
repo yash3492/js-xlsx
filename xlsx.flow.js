@@ -13355,7 +13355,6 @@ function write_ws_xml_datavalidation(validations) {
 		o += '</dataValidation>';
 	}
 	o += '</dataValidations>';
-	console.log('Will Write validation', o);
 	return o;
 }
 
