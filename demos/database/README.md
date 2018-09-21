@@ -337,4 +337,4 @@ Firebase deployment when plugging in the database connection info.
 The entire workbook object is persisted, a few cells are changed, and the stored
 data is dumped and exported to XLSX.
 
-[![Analytics](https://ga-beacon.appspot.com/UA-36810333-1/SheetJS/js-xlsx?pixel)](https://github.com/SheetJS/js-xlsx)
+

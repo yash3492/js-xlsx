@@ -50,4 +50,4 @@ can be installed with Bash on Windows or with `cygwin`.
 - [`"serverless" functions`](function/)
 - [`internet explorer`](oldie/)
 
-[![Analytics](https://ga-beacon.appspot.com/UA-36810333-1/SheetJS/js-xlsx?pixel)](https://github.com/SheetJS/js-xlsx)
+

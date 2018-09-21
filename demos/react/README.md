@@ -124,4 +124,4 @@ The demo uses the same component code as the in-browser version, but the build
 step adds a small header that imports the library.  The import is not needed in
 deployments that use script tags to include the library.
 
-[![Analytics](https://ga-beacon.appspot.com/UA-36810333-1/SheetJS/js-xlsx?pixel)](https://github.com/SheetJS/js-xlsx)
+

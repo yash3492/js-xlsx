@@ -28,4 +28,4 @@ browserify xlsxworker.js > worker.js
 uglifyjs worker.js > worker.min.js
 ```
 
-[![Analytics](https://ga-beacon.appspot.com/UA-36810333-1/SheetJS/js-xlsx?pixel)](https://github.com/SheetJS/js-xlsx)
+

@@ -91,4 +91,4 @@ XLSX.writeFile(wb, "SheetJS.xlsx");
 This demo barely scratches the surface.  The underlying grid component includes
 many additional features including massive data streaming, sorting and styling.
 
-[![Analytics](https://ga-beacon.appspot.com/UA-36810333-1/SheetJS/js-xlsx?pixel)](https://github.com/SheetJS/js-xlsx)
+

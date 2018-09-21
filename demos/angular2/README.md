@@ -176,4 +176,4 @@ const wbout: string = XLSX.write(wb, { bookType: 'xlsx', type: 'binary' });
 await file.writeText(wbout, textModule.encoding.ISO_8859_1);
 ```
 
-[![Analytics](https://ga-beacon.appspot.com/UA-36810333-1/SheetJS/js-xlsx?pixel)](https://github.com/SheetJS/js-xlsx)
+

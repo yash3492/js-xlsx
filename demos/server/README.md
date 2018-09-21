@@ -142,4 +142,4 @@ curl -X POST http://localhost:7262/file?f=sheetjs.xlsx
 curl -X GET http://localhost:7262/?f=sheetjs.xlsb
 ```
 
-[![Analytics](https://ga-beacon.appspot.com/UA-36810333-1/SheetJS/js-xlsx?pixel)](https://github.com/SheetJS/js-xlsx)
+

@@ -153,4 +153,4 @@ buf, _ := base64.StdEncoding.DecodeString(b64str.String())
 _ = ioutil.WriteFile("sheetjs.xlsx", buf, 0644)
 ```
 
-[![Analytics](https://ga-beacon.appspot.com/UA-36810333-1/SheetJS/js-xlsx?pixel)](https://github.com/SheetJS/js-xlsx)
+

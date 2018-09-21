@@ -139,4 +139,4 @@ The upload code is identical to `axios`, except for the variable name:
 fetch("/upload", {method: "POST", body: fd});
 ```
 
-[![Analytics](https://ga-beacon.appspot.com/UA-36810333-1/SheetJS/js-xlsx?pixel)](https://github.com/SheetJS/js-xlsx)
+

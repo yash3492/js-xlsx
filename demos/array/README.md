@@ -152,4 +152,4 @@ The demo generates a sample dataset and uses a simple linear predictor with
 least-squares scoring to calculate regression coefficients.  The tensors are
 exported to a new file.
 
-[![Analytics](https://ga-beacon.appspot.com/UA-36810333-1/SheetJS/js-xlsx?pixel)](https://github.com/SheetJS/js-xlsx)
+

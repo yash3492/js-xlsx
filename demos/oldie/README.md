@@ -132,4 +132,4 @@ if(input_dom_element.attachEvent) input_dom_element.attachEvent('onchange', hand
 else input_dom_element.addEventListener('change', handler, false);
 ```
 
-[![Analytics](https://ga-beacon.appspot.com/UA-36810333-1/SheetJS/js-xlsx?pixel)](https://github.com/SheetJS/js-xlsx)
+

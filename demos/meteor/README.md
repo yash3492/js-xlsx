@@ -86,4 +86,4 @@ Browser-specific operations like `XLSX.utils.table_to_book` are limited to
 client side code. You should never have to read from DOM elements on the server
 side, but you can use a third-party virtual DOM to provide the required API.
 
-[![Analytics](https://ga-beacon.appspot.com/UA-36810333-1/SheetJS/js-xlsx?pixel)](https://github.com/SheetJS/js-xlsx)
+

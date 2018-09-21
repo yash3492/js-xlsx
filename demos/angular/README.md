@@ -143,4 +143,4 @@ a download.  By setting the `filename` and `sheetname` options in the `ui-grid`
 options, the output can be controlled.
 
 
-[![Analytics](https://ga-beacon.appspot.com/UA-36810333-1/SheetJS/js-xlsx?pixel)](https://github.com/SheetJS/js-xlsx)
+

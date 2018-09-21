@@ -65,4 +65,4 @@ binding is possible using the `$parent` and `$index` binding context properties:
 The demo shows reading worksheets into a view model and writing models to XLSX.
 
 
-[![Analytics](https://ga-beacon.appspot.com/UA-36810333-1/SheetJS/js-xlsx?pixel)](https://github.com/SheetJS/js-xlsx)
+

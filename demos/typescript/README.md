@@ -68,4 +68,4 @@ const wb: WorkBook = read(data, options);
 `src/index.js` is the browser entry point.  The `browserify` bundle tool is used
 to generate `dist/browser.js`, a browser script loaded by `index.html`.
 
-[![Analytics](https://ga-beacon.appspot.com/UA-36810333-1/SheetJS/js-xlsx?pixel)](https://github.com/SheetJS/js-xlsx)
+

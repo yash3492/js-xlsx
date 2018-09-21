@@ -64,4 +64,4 @@ That step creates a file `app-built.js` that can be included in a page:
 <script src="app-built.js"></script>
 ```
 
-[![Analytics](https://ga-beacon.appspot.com/UA-36810333-1/SheetJS/js-xlsx?pixel)](https://github.com/SheetJS/js-xlsx)
+

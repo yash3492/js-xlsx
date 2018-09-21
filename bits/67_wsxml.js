@@ -464,6 +464,19 @@ var WS_XML_ROOT = writextag('worksheet', null, {
 	'xmlns:r': XMLNS.r
 });
 
+function write_ws_xml_datavalidation(validations) {
+	var o = '<dataValidations>';
+	for(var i=0; i < validations.length; i++) {
+		var validation = validations[i];
+		o += '<dataValidation type="list" allowBlank="'+validations.allowBlank ? 1 : 0+'" showInputMessage="'+validations.showInputMessage ? 1 : 0+'" showErrorMessage="'+validations.showErrorMessage ? 1 : 0+'" sqref="' + validation.sqref + '">';
+		o += '<formula1>&quot;' + validation.values + '&quot;</formula1>';
+		o += '</dataValidation>';
+	}
+	o += '</dataValidations>';
+	console.log('Will Write validation', o);
+	return o;
+}
+
 function write_ws_xml(idx/*:number*/, opts, wb/*:Workbook*/, rels)/*:string*/ {
 	var o = [XML_HEADER, WS_XML_ROOT];
 	var s = wb.SheetNames[idx], sidx = 0, rdata = "";
@@ -526,6 +539,7 @@ function write_ws_xml(idx/*:number*/, opts, wb/*:Workbook*/, rels)/*:string*/ {
 	/* phoneticPr */
 	/* conditionalFormatting */
 	/* dataValidations */
+	if(ws['!dataValidation']) o[o.length] = write_ws_xml_datavalidation(ws['!dataValidation']);
 
 	var relc = -1, rel, rId = -1;
 	if(ws['!links'].length > 0) {
