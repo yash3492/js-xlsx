@@ -13350,7 +13350,14 @@ function write_ws_xml_datavalidation(validations) {
 	var o = '<dataValidations>';
 	for(var i=0; i < validations.length; i++) {
 		var validation = validations[i];
-		o += '<dataValidation type="list" allowBlank="'+validations.allowBlank ? 1 : 0+'" showInputMessage="'+validations.showInputMessage ? 1 : 0+'" showErrorMessage="'+validations.showErrorMessage ? 1 : 0+'" sqref="' + validation.sqref + '">';
+		o += '<dataValidation type="list" allowBlank="'+(validation.allowBlank ? 1 : 0)+'" \
+		showInputMessage="'+(validation.showInputMessage ? 1 : 0)+'" \
+		promptTitle="'+(validation.promptTitle || '')+'" \
+		prompt="'+(validation.promptMessage || '')+'" \
+		showErrorMessage="'+(validation.showErrorMessage ? 1 : 0)+'" \
+		errorTitle="'+(validation.errorTitle || '')+'" \
+		error="'+(validation.errorMessage || '')+'" \
+		sqref="' + validation.sqref + '">';
 		o += '<formula1>&quot;' + validation.values + '&quot;</formula1>';
 		o += '</dataValidation>';
 	}
